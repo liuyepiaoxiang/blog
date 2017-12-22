@@ -1,5 +1,5 @@
 ---
-title: npm置
+title: npm淘宝源设置
 date: 2017-05-25 19:25:03
 tags:
 - mpm
@@ -12,13 +12,13 @@ tags:
 npm config set registry https://registry.npm.taobao.org 
 npm info underscore 
 ```
-2. 命令行指定
+1. 命令行指定
 ```
 npm --registry https://registry.npm.taobao.org info underscore 
 ```
-3. 编辑npm所在目录的npmrc文件中修改
-Windows所在的目录一般默认在`C:\Users\Administrator\AppData\Roaming\npm\etc`
-Linux所在的目录为~/
+1. 编辑npm所在目录的npmrc文件中修改
+   Windows所在的目录一般默认在`C:\Users\Administrator\AppData\Roaming\npm\etc`
+   Linux所在的目录为~/
 ```
 registry = https://registry.npm.taobao.org
 ```
