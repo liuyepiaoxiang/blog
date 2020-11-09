@@ -3,7 +3,6 @@ title: hexo安装与配置
 date: 2017-05-25 19:04:55
 tags:
 - node.js
-- hexo
 ### 安装
 前置条件：
 1. git
@@ -27,24 +26,23 @@ hexo s -g
 在浏览器输入`http://localhost:4000`即可访问
 
 ### 配置
-
 #### 配置文件为当前所在目录下的`_config.yml文件
 ```
 #博客名称
 title: 我的博客
 #副标题
-subtitle: 一天进步一点
+subtitle: 博客副标题
 #简介
-description: 记录生活点滴
+description: 欢迎光临博客
 #博客作者
-author: John Doe
+author: **
 #博客语言
 language: zh-CN
 #时区
 timezone:
 
 #博客地址,与申请的GitHub一致
-url: http://elfwalk.github.io
+url: http://**.github.io
 root: /
 #博客链接格式
 permalink: :year/:month/:day/:title/
@@ -92,8 +90,8 @@ theme: landscape
 #发布设置
 deploy: 
   type: git
-  #elfwalk改为你的github用户名
-  repository: https://github.com/elfwalk/elfwalk.github.io.git
+  **改为你的github用户名
+  repository: https://github.com/**.git
   branch: master
 ```
 > 注意事项：上述输入的文字，必须在每个`:`后留一个空格，否则会报错

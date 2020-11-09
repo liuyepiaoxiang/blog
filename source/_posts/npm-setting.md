@@ -2,9 +2,7 @@
 title: npm淘宝源设置
 date: 2017-05-25 19:25:03
 tags:
-- mpm
 - node.js
-- 前端
 ---
 ### npm淘宝源设置
 1. 通过config命令

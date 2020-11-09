@@ -6,7 +6,7 @@
 title: 柳叶飘香的草屋
 subtitle: 个人修行的空间
 description: 大数据、禅修、机器学习、前端
-author: Json Lau
+author: Jason Lious
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -68,6 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repository:https://github.com/liuyepiaoxiang/blog.git
-  branch:master
+  type: git
+  repository: https://github.com/liuyepiaoxiang/blog.git
+  branch: gh-pages
